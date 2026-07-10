@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface HoadonRepository
         extends JpaRepository<HoaDon , String > {
+    long countByKhach_MaKh(String maKh);
 }
