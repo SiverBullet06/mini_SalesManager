@@ -51,6 +51,7 @@ public class KhachService {
                         -> new RuntimeException("Khong tim thay ma khach hang "));
         khachRepository.delete(khach);
     }
+
 //    public Khach addOrUpdateKhach(String id, Khach request) {
 //        // Trường hợp 1: Có ID truyền vào -> Thực hiện UPDATE
 //        if (id != null && !id.trim().isEmpty()) {
